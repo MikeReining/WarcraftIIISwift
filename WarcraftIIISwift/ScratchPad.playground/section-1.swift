@@ -14,6 +14,7 @@ class Unit {
     
 }
 
+
 class Footman: Unit {
     override init() {
         super.init()
@@ -21,6 +22,18 @@ class Footman: Unit {
         self.attackPower = 10
     }
     
+    func attack (enemy: Unit) {
+        enemy.healthPoints -= self.attackPower
+        self.healthPoints -= enemy.attackPower
+    }
+    
+    
 }
 
-var footman = Footman()
+var footman1 = Footman()
+var footman2 = Footman()
+
+footman1.attack(footman2)
+
+footman1
+footman2

@@ -15,6 +15,12 @@ class Footman: Unit {
         self.attackPower = 10
     }
     
+    func attack (enemy: Unit) {
+        enemy.healthPoints -= self.attackPower
+        self.healthPoints -= enemy.attackPower
+    }
+
+    
 }
 
 
