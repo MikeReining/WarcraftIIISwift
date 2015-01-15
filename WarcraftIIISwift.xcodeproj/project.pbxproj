@@ -55,6 +55,7 @@
 		278AF2431A686EF800249455 /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		278AF2451A68701300249455 /* ScratchPad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ScratchPad.playground; sourceTree = "<group>"; };
 		278AF2481A6872CE00249455 /* Peasant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peasant.swift; sourceTree = "<group>"; };
+		278AF24B1A68760900249455 /* Test10.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Test10.playground; path = ../WarcraftIIISwift/Test10.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +126,7 @@
 				278AF23B1A6864B600249455 /* Test01.swift */,
 				278AF23E1A68687C00249455 /* Test02.swift */,
 				278AF2411A686A6600249455 /* Test03.swift */,
+				278AF24B1A68760900249455 /* Test10.playground */,
 				278AF22D1A68645C00249455 /* WarcraftIIISwiftTests.swift */,
 				278AF22B1A68645C00249455 /* Supporting Files */,
 			);

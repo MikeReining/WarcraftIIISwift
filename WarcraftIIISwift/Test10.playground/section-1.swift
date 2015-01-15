@@ -1,12 +1,6 @@
-//
-//  Unit.swift
-//  WarcraftIIISwift
-//
-//  Created by Michael Reining on 1/15/15.
-//  Copyright (c) 2015 Mike Reining. All rights reserved.
-//
+// Playground - noun: a place where people can play
 
-import Foundation
+import Cocoa
 
 class Unit {
     var healthPoints: Int
@@ -21,3 +15,11 @@ class Unit {
         self.healthPoints -= enemy.attackPower
     }
 }
+
+//MARK: Test case 10
+
+var unit = Unit(healthPoints: 100, attackPower: 3)
+var enemy = Unit(healthPoints: 40, attackPower: 5)
+
+unit.attack(enemy)
+enemy

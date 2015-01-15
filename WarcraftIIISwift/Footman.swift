@@ -9,18 +9,8 @@
 import Foundation
 
 class Footman: Unit {
-    override init() {
-        super.init()
-        self.healthPoints = 60
-        self.attackPower = 10
+    init() {
+        super.init(healthPoints: 60, attackPower: 10)
     }
-    
-    func attack (enemy: Unit) {
-        enemy.healthPoints -= self.attackPower
-        self.healthPoints -= enemy.attackPower
-    }
-
-    
 }
-
 
