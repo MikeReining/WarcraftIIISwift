@@ -8,14 +8,13 @@
 
 import Foundation
 
-class Footman {
-    var healthPoints: Int
-    var attackPower: Int
-    init() {
+class Footman: Unit {
+    override init() {
+        super.init()
         self.healthPoints = 60
         self.attackPower = 10
     }
-
+    
 }
 
 
