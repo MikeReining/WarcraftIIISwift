@@ -37,3 +37,14 @@ footman1.attack(footman2)
 
 footman1
 footman2
+
+class Peasant : Unit {
+    override init() {
+        super.init()
+        self.healthPoints = 35
+        self.attackPower = 0
+    }
+}
+
+var peasant1 = Peasant()
+

@@ -22,6 +22,8 @@
 		278AF2421A686A6600249455 /* Test03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2411A686A6600249455 /* Test03.swift */; };
 		278AF2441A686EF800249455 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2431A686EF800249455 /* Unit.swift */; };
 		278AF2471A6870E800249455 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2431A686EF800249455 /* Unit.swift */; };
+		278AF2491A6872CE00249455 /* Peasant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2481A6872CE00249455 /* Peasant.swift */; };
+		278AF24A1A6872D200249455 /* Peasant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2481A6872CE00249455 /* Peasant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,7 @@
 		278AF2411A686A6600249455 /* Test03.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test03.swift; sourceTree = "<group>"; };
 		278AF2431A686EF800249455 /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		278AF2451A68701300249455 /* ScratchPad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ScratchPad.playground; sourceTree = "<group>"; };
+		278AF2481A6872CE00249455 /* Peasant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peasant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,7 @@
 			children = (
 				278AF2371A68647900249455 /* Baracks.swift */,
 				278AF2381A68647900249455 /* Footman.swift */,
+				278AF2481A6872CE00249455 /* Peasant.swift */,
 				278AF2431A686EF800249455 /* Unit.swift */,
 				278AF2451A68701300249455 /* ScratchPad.playground */,
 				278AF2171A68645C00249455 /* AppDelegate.swift */,
@@ -235,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278AF2491A6872CE00249455 /* Peasant.swift in Sources */,
 				278AF2441A686EF800249455 /* Unit.swift in Sources */,
 				278AF23A1A68647900249455 /* Footman.swift in Sources */,
 				278AF21A1A68645C00249455 /* ViewController.swift in Sources */,
@@ -251,6 +256,7 @@
 				278AF23C1A6864B600249455 /* Test01.swift in Sources */,
 				278AF2421A686A6600249455 /* Test03.swift in Sources */,
 				278AF2471A6870E800249455 /* Unit.swift in Sources */,
+				278AF24A1A6872D200249455 /* Peasant.swift in Sources */,
 				278AF23F1A68687C00249455 /* Test02.swift in Sources */,
 				278AF22E1A68645C00249455 /* WarcraftIIISwiftTests.swift in Sources */,
 				278AF23D1A6866C600249455 /* Footman.swift in Sources */,
