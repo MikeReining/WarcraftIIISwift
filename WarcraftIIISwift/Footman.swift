@@ -15,6 +15,7 @@ class Footman {
         self.healthPoints = 60
         self.attackPower = 10
     }
+
 }
 
 

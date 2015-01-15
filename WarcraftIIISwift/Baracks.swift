@@ -16,11 +16,22 @@ class Baracks {
         self.food = 80
     }
     
-    func trainFootman() -> Footman {
-        var footman2 = Footman()
-        gold -= 135
-        food -= 2
-        return footman2
+    func enoughResourcesToTrainFootman() -> Bool {
+        if self.gold > 134 && self.food > 2 {
+            return true
+        }
+        return false
     }
+    
+    func trainFootman() -> Footman? {
+        if enoughResourcesToTrainFootman() {
+            var footman2 = Footman()
+            gold -= 135
+            food -= 2
+            return footman2
+        }
+        return nil
+    }
+
 }
 

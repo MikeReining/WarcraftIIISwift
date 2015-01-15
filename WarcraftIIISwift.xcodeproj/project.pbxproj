@@ -19,6 +19,7 @@
 		278AF23D1A6866C600249455 /* Footman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2381A68647900249455 /* Footman.swift */; };
 		278AF23F1A68687C00249455 /* Test02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF23E1A68687C00249455 /* Test02.swift */; };
 		278AF2401A68692B00249455 /* Baracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2371A68647900249455 /* Baracks.swift */; };
+		278AF2421A686A6600249455 /* Test03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2411A686A6600249455 /* Test03.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		278AF2381A68647900249455 /* Footman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Footman.swift; sourceTree = "<group>"; };
 		278AF23B1A6864B600249455 /* Test01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test01.swift; sourceTree = "<group>"; };
 		278AF23E1A68687C00249455 /* Test02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test02.swift; sourceTree = "<group>"; };
+		278AF2411A686A6600249455 /* Test03.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test03.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				278AF23B1A6864B600249455 /* Test01.swift */,
 				278AF23E1A68687C00249455 /* Test02.swift */,
+				278AF2411A686A6600249455 /* Test03.swift */,
 				278AF22D1A68645C00249455 /* WarcraftIIISwiftTests.swift */,
 				278AF22B1A68645C00249455 /* Supporting Files */,
 			);
@@ -239,6 +242,7 @@
 			files = (
 				278AF2401A68692B00249455 /* Baracks.swift in Sources */,
 				278AF23C1A6864B600249455 /* Test01.swift in Sources */,
+				278AF2421A686A6600249455 /* Test03.swift in Sources */,
 				278AF23F1A68687C00249455 /* Test02.swift in Sources */,
 				278AF22E1A68645C00249455 /* WarcraftIIISwiftTests.swift in Sources */,
 				278AF23D1A6866C600249455 /* Footman.swift in Sources */,
