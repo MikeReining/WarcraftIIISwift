@@ -25,13 +25,29 @@ class Baracks {
     
     func trainFootman() -> Footman? {
         if enoughResourcesToTrainFootman() {
-            var footman2 = Footman()
+            var footman = Footman()
             gold -= 135
             food -= 2
-            return footman2
+            return footman
         }
         return nil
     }
+    
+    func enoughResourcesToTrainPeasant() -> Bool {
+        if self.gold > 89 && self.food > 5 {
+            return true
+        }
+        return false
+    }
 
+    func trainPeasant() -> Peasant? {
+        if enoughResourcesToTrainPeasant() {
+            var peasant = Peasant()
+            gold -= 90
+            food -= 2
+            return peasant
+        }
+        return nil
+    }
 }
 

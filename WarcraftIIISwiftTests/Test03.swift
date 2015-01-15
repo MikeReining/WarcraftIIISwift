@@ -31,12 +31,11 @@ class Test3: XCTestCase {
         XCTAssertEqual(expected, result, "Pass")
     }
     
-//    func testTrainFootmanProducesAFootmanUnit() {
-//        let barack = Baracks()
-//        var result = barack.trainFootman()
-//        var expected = Footman()
-//        XCTAssertEqual(expected, result, "Pass")
-//    }
+    func testTrainFootmanProducesAFootmanUnit() {
+        let barack = Baracks()
+        var result = barack.trainFootman()
+        XCTAssert(result != nil, "Pass")
+    }
     
 }
 
