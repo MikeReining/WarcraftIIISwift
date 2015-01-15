@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278AF2181A68645C00249455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2171A68645C00249455 /* AppDelegate.swift */; };
+		278AF21A1A68645C00249455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2191A68645C00249455 /* ViewController.swift */; };
+		278AF21D1A68645C00249455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278AF21B1A68645C00249455 /* Main.storyboard */; };
+		278AF21F1A68645C00249455 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278AF21E1A68645C00249455 /* Images.xcassets */; };
+		278AF2221A68645C00249455 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278AF2201A68645C00249455 /* LaunchScreen.xib */; };
+		278AF22E1A68645C00249455 /* WarcraftIIISwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF22D1A68645C00249455 /* WarcraftIIISwiftTests.swift */; };
+		278AF2391A68647900249455 /* Baracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2371A68647900249455 /* Baracks.swift */; };
+		278AF23A1A68647900249455 /* Footman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2381A68647900249455 /* Footman.swift */; };
+		278AF23C1A6864B600249455 /* Test01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF23B1A6864B600249455 /* Test01.swift */; };
+		278AF23D1A6866C600249455 /* Footman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2381A68647900249455 /* Footman.swift */; };
+		278AF23F1A68687C00249455 /* Test02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF23E1A68687C00249455 /* Test02.swift */; };
+		278AF2401A68692B00249455 /* Baracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AF2371A68647900249455 /* Baracks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		278AF2281A68645C00249455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278AF20A1A68645C00249455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 278AF2111A68645C00249455;
+			remoteInfo = WarcraftIIISwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		278AF2121A68645C00249455 /* WarcraftIIISwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarcraftIIISwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		278AF2161A68645C00249455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278AF2171A68645C00249455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		278AF2191A68645C00249455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		278AF21C1A68645C00249455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		278AF21E1A68645C00249455 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		278AF2211A68645C00249455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		278AF2271A68645C00249455 /* WarcraftIIISwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarcraftIIISwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		278AF22C1A68645C00249455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278AF22D1A68645C00249455 /* WarcraftIIISwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarcraftIIISwiftTests.swift; sourceTree = "<group>"; };
+		278AF2371A68647900249455 /* Baracks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Baracks.swift; sourceTree = "<group>"; };
+		278AF2381A68647900249455 /* Footman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Footman.swift; sourceTree = "<group>"; };
+		278AF23B1A6864B600249455 /* Test01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test01.swift; sourceTree = "<group>"; };
+		278AF23E1A68687C00249455 /* Test02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test02.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		278AF20F1A68645C00249455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278AF2241A68645C00249455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278AF2091A68645C00249455 = {
+			isa = PBXGroup;
+			children = (
+				278AF2141A68645C00249455 /* WarcraftIIISwift */,
+				278AF22A1A68645C00249455 /* WarcraftIIISwiftTests */,
+				278AF2131A68645C00249455 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		278AF2131A68645C00249455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278AF2121A68645C00249455 /* WarcraftIIISwift.app */,
+				278AF2271A68645C00249455 /* WarcraftIIISwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		278AF2141A68645C00249455 /* WarcraftIIISwift */ = {
+			isa = PBXGroup;
+			children = (
+				278AF2371A68647900249455 /* Baracks.swift */,
+				278AF2381A68647900249455 /* Footman.swift */,
+				278AF2171A68645C00249455 /* AppDelegate.swift */,
+				278AF2191A68645C00249455 /* ViewController.swift */,
+				278AF21B1A68645C00249455 /* Main.storyboard */,
+				278AF21E1A68645C00249455 /* Images.xcassets */,
+				278AF2201A68645C00249455 /* LaunchScreen.xib */,
+				278AF2151A68645C00249455 /* Supporting Files */,
+			);
+			path = WarcraftIIISwift;
+			sourceTree = "<group>";
+		};
+		278AF2151A68645C00249455 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				278AF2161A68645C00249455 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		278AF22A1A68645C00249455 /* WarcraftIIISwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				278AF23B1A6864B600249455 /* Test01.swift */,
+				278AF23E1A68687C00249455 /* Test02.swift */,
+				278AF22D1A68645C00249455 /* WarcraftIIISwiftTests.swift */,
+				278AF22B1A68645C00249455 /* Supporting Files */,
+			);
+			path = WarcraftIIISwiftTests;
+			sourceTree = "<group>";
+		};
+		278AF22B1A68645C00249455 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				278AF22C1A68645C00249455 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		278AF2111A68645C00249455 /* WarcraftIIISwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278AF2311A68645C00249455 /* Build configuration list for PBXNativeTarget "WarcraftIIISwift" */;
+			buildPhases = (
+				278AF20E1A68645C00249455 /* Sources */,
+				278AF20F1A68645C00249455 /* Frameworks */,
+				278AF2101A68645C00249455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarcraftIIISwift;
+			productName = WarcraftIIISwift;
+			productReference = 278AF2121A68645C00249455 /* WarcraftIIISwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		278AF2261A68645C00249455 /* WarcraftIIISwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278AF2341A68645C00249455 /* Build configuration list for PBXNativeTarget "WarcraftIIISwiftTests" */;
+			buildPhases = (
+				278AF2231A68645C00249455 /* Sources */,
+				278AF2241A68645C00249455 /* Frameworks */,
+				278AF2251A68645C00249455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				278AF2291A68645C00249455 /* PBXTargetDependency */,
+			);
+			name = WarcraftIIISwiftTests;
+			productName = WarcraftIIISwiftTests;
+			productReference = 278AF2271A68645C00249455 /* WarcraftIIISwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		278AF20A1A68645C00249455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mike Reining";
+				TargetAttributes = {
+					278AF2111A68645C00249455 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					278AF2261A68645C00249455 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 278AF2111A68645C00249455;
+					};
+				};
+			};
+			buildConfigurationList = 278AF20D1A68645C00249455 /* Build configuration list for PBXProject "WarcraftIIISwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 278AF2091A68645C00249455;
+			productRefGroup = 278AF2131A68645C00249455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				278AF2111A68645C00249455 /* WarcraftIIISwift */,
+				278AF2261A68645C00249455 /* WarcraftIIISwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		278AF2101A68645C00249455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278AF21D1A68645C00249455 /* Main.storyboard in Resources */,
+				278AF2221A68645C00249455 /* LaunchScreen.xib in Resources */,
+				278AF21F1A68645C00249455 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278AF2251A68645C00249455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278AF20E1A68645C00249455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278AF23A1A68647900249455 /* Footman.swift in Sources */,
+				278AF21A1A68645C00249455 /* ViewController.swift in Sources */,
+				278AF2181A68645C00249455 /* AppDelegate.swift in Sources */,
+				278AF2391A68647900249455 /* Baracks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278AF2231A68645C00249455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278AF2401A68692B00249455 /* Baracks.swift in Sources */,
+				278AF23C1A6864B600249455 /* Test01.swift in Sources */,
+				278AF23F1A68687C00249455 /* Test02.swift in Sources */,
+				278AF22E1A68645C00249455 /* WarcraftIIISwiftTests.swift in Sources */,
+				278AF23D1A6866C600249455 /* Footman.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		278AF2291A68645C00249455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 278AF2111A68645C00249455 /* WarcraftIIISwift */;
+			targetProxy = 278AF2281A68645C00249455 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		278AF21B1A68645C00249455 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278AF21C1A68645C00249455 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		278AF2201A68645C00249455 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278AF2211A68645C00249455 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		278AF22F1A68645C00249455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		278AF2301A68645C00249455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		278AF2321A68645C00249455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WarcraftIIISwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		278AF2331A68645C00249455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WarcraftIIISwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		278AF2351A68645C00249455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WarcraftIIISwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarcraftIIISwift.app/WarcraftIIISwift";
+			};
+			name = Debug;
+		};
+		278AF2361A68645C00249455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WarcraftIIISwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarcraftIIISwift.app/WarcraftIIISwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278AF20D1A68645C00249455 /* Build configuration list for PBXProject "WarcraftIIISwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278AF22F1A68645C00249455 /* Debug */,
+				278AF2301A68645C00249455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278AF2311A68645C00249455 /* Build configuration list for PBXNativeTarget "WarcraftIIISwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278AF2321A68645C00249455 /* Debug */,
+				278AF2331A68645C00249455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		278AF2341A68645C00249455 /* Build configuration list for PBXNativeTarget "WarcraftIIISwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278AF2351A68645C00249455 /* Debug */,
+				278AF2361A68645C00249455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 278AF20A1A68645C00249455 /* Project object */;
+}
